@@ -2,7 +2,7 @@
 ETL para datos de paises
 ## como desplegar el proyecto
 
-### paso 1 - creamo el entorno virtual
+### paso 1 - creamos el entorno virtual
 '''
 python - m venv venv
 '''

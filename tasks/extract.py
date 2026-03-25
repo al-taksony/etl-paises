@@ -4,7 +4,7 @@ def extract():
     """
     extraer data de randomuser
     """
-    URL = "https://randomuser.me/api/?results=10"
+    URL = "https://restcountries.com/v3.1/region/America"
     response = requests.get(URL)
     
     extract_data = []
