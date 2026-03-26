@@ -18,6 +18,10 @@ def load(data):
                         region VARCHAR(255),
                         poblacion BIGINT);
                     """)
+    
+    sql = "INSERT INTO pais (nombre, capital, region, poblacion) VALUES (%s, %s, %s, %s)"
+    cursor.executemany(sql, data)
+        
     conn.commit()
     cursor.close()
     conn.close()
